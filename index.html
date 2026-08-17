@@ -3,24 +3,35 @@
 <head>
   <meta charset="utf-8">
   <title>Tonton Video Selengkapnya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Meta Open Graph untuk Pratinjau Facebook -->
+  <!-- Open Graph Meta Tags -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tonton Video Selengkapnya Di Sini" />
   <meta property="og:description" content="Klik untuk memutar video detail produk." />
   <meta property="og:image" content="https://i.postimg.cc/MTh1yrRZ/Desain-tanpa-judul.png" />
-  <meta property="og:image:secure_url" content="https://i.postimg.cc/MTh1yrRZ/Desain-tanpa-judul.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-  <!-- Script Redirect Otomatis ke Shopee -->
-  <script>
-    setTimeout(function() {
-      window.location.href = "https://s.shopee.co.id/50YK7mYxtE";
-    }, 500);
-  </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      cursor: pointer;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
-<body>
-  <p>Mengarahkan ke Shopee...</p>
+<body onclick="window.location.href='https://s.shopee.co.id/50YK7mYxtE'">
+  <!-- Mengklik area mana saja di layar akan mengarahkan ke Shopee -->
+  <img src="https://i.postimg.cc/MTh1yrRZ/Desain-tanpa-judul.png" alt="Play Video">
 </body>
 </html>
